@@ -1,7 +1,8 @@
 
-body{
+.bg{
     background-image: url(bg-image.jpg);
     background-size: cover;
+    width:100vw;
     background-repeat: no-repeat;
     margin: 0px;
     
@@ -110,5 +111,15 @@ body{
       margin: 10px 0;
       position: relative;
     }
+  }
+  .card{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .statue{
+    height: 500px;
+    
   }
    
